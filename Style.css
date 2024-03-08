@@ -29,29 +29,39 @@ header {
 
 nav {
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
+  display: flex;
+  justify-content: end;
 }
 
-card-style {
-    background-color: wheat;
-    width: 200px;
-    height: 220px;
-    border-radius: 20px; /*Borda redonda*/
+.card-style {
+    background-color: #eaefcc;
+  width: 200px;
+  height: 220px;
+  border-radius: 20px; /*Borda redonda*/
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  padding: 15px; /*Espaçamento interno dos elementos*/
+  margin: 15px; /*Espaçamento externo dos elementos*/
 
 }
 
-.nature-image{
-    width: 400px;
-    height: 310px;
-}
 
-first-input-style{
+.first-input-style{
     border: none;
     outline: none;
     border-radius: 80px;
+    width: 95%;
 
-    padding: 8px;
+    padding: 20px;
+}
+.nature-image{
+    width: 200px;
+    height: 100px;
+
+    border-radius: 20px;
 }
